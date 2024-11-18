@@ -1,0 +1,47 @@
+/* src/styles/Login.css*/
+
+.custom-form-container {
+    margin-top: 5rem;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+}
+
+.custom-card {
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.custom-card-body {
+    padding: 2rem;
+}
+
+.custom-form-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.custom-form-control {
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+}
+
+.custom-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
+
+.custom-error {
+    color: #dc3545;
+}
+
+.custom-success {
+    color: #28a745;
+}

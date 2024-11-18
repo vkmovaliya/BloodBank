@@ -1,0 +1,106 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.6;
+}
+
+
+/* .hero-section {
+    background-image: url('https://images.unsplash.com/photo-1506784365847-bbad939e9335');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.impact-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.impact-stats {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.impact-stats h3 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.call-to-action {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.call-to-action button {
+    background-color: #dc3545;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+}
+
+ */
+
+.gallery {
+    height: 300px;
+    margin-top: 5%;
+    display: flex;
+    overflow: auto;
+    justify-content: center;
+    gap: 10px;
+    -ms-overflow-style: none !important;
+}
+
+.gallery img {
+    max-width: 300px;
+    max-height: 300px;
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.684);
+}
+
+.gallery img:hover {
+    width: 100%;
+    height: 100%;
+    transition: all ease-in-out 1s;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) */
+}
+
+.gallery img:not(:hover) {
+    width: 10%;
+    height: 100%;
+    transition: all ease-in-out 0.81s;
+}

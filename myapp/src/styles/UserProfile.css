@@ -1,0 +1,166 @@
+        /* UserProfile.css */
+        
+        .page-content {
+            background-color: #f8f9fa;
+            /* Light gray background for the entire page */
+            padding: 20px;
+        }
+        
+        .user-card-full {
+            background-color: #ffffff;
+            /* White background for the user card */
+            border-radius: 20px;
+            /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            /* Subtle shadow */
+            margin: 20px auto;
+            /* Center the card horizontally with margin */
+            max-width: 800px;
+            /* Set a max-width for better layout */
+            padding: 20px;
+            /* Padding inside the card */
+        }
+        
+        .bg-c-lite-green {
+            background-color: #b22222;
+            /* Dark red background for user profile section */
+            padding: 20px;
+            border-radius: 30px;
+            /* Rounded corners */
+            margin: 0px;
+        }
+        
+        .card-block {
+            padding: 20px;
+            /* Add padding for the card content */
+        }
+        
+        .img-radius {
+            border-radius: 20%;
+            /* Round image for profile picture */
+            width: 150px;
+            /* Set fixed width for the image */
+            height: 150px;
+            /* Set fixed height for the image */
+            object-fit: cover;
+            /* Ensure image covers the area */
+        }
+        
+        h6.f-w-600 {
+            font-weight: 600;
+            /* Bold headings */
+        }
+        
+        .text-muted {
+            color: #6c757d;
+            /* Muted text color */
+        }
+        
+        .separator {
+            border: 1px solid #000;
+            /* Black horizontal line separator */
+            margin: 20px 0;
+            /* Space around the separator */
+        }
+        
+        .line-item {
+            display: flex;
+            justify-content: space-between;
+            /* Align items to the edges */
+            padding: 10px 0;
+            /* Vertical padding */
+        }
+        
+        .label {
+            font-weight: 600;
+            /* Bold labels */
+        }
+        
+        .value {
+            color: #333;
+            /* Darker color for values */
+        }
+        
+        .social-link a {
+            color: #b22222;
+            /* Match social icons with blood bank theme */
+        }
+        
+        .card-body {
+            border: 1px solid #ddd;
+            /* Border for card body */
+            border-radius: 10px;
+            /* Rounded corners */
+        }
+        
+        .button-container {
+            display: flex;
+            justify-content: center;
+            /* Center the button horizontally */
+            margin-top: 20px;
+            /* Add some space above the button */
+        }
+        
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .modal-content {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 500px;
+            width: 100%;
+        }
+        
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .form-group input {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+        }
+        
+        .select-field {
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            font-size: 16px;
+            width: 100%;
+        }
+        
+        .select-field:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+        
+        .form-control,
+        .select-field {
+            border-radius: 20px;
+            margin-left: 2px;
+        }
+        
+        .for {
+            border-radius: 20px;
+            margin-left: -25px;
+        }
+        
+        .label {
+            margin-top: 5px;
+        }

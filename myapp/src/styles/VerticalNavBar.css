@@ -1,0 +1,79 @@
+/* .nav-link {
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link:hover {
+    background-color: #343a40;
+    text-decoration: none;
+}
+
+.nav-link.active,
+.nav-link.active-admin {
+    background-color: #495057;
+    border-radius: 0.25rem;
+}
+
+.navbar-divider {
+    border-top: 1px solid #495057;
+    margin: 1rem 0;
+} */
+
+
+/* VerticalNavBar.css */
+
+.navbar-fixed {
+    position: fixed;
+    /* Keeps the navbar fixed on the left */
+    top: 0;
+    left: 0;
+    width: 250px;
+    /* Set the width of the navbar */
+    height: 100vh;
+    /* Full height */
+    z-index: 1000;
+    /* Ensure it's above other content */
+    background-color: #343a40;
+    /* Dark background */
+    padding: 20px;
+    overflow-y: auto;
+    /* Allows scrolling inside the navbar if needed */
+}
+
+.main-content {
+    margin-left: 250px;
+    /* This pushes the main content to the right */
+    padding: 20px;
+    /* Adds some padding for better layout */
+    min-height: 100vh;
+    /* Makes sure the content takes at least full screen height */
+    background-color: #f8f9fa;
+    /* Light background for content section */
+}
+
+
+/* Styles for nav-link */
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #495057;
+    border-radius: 5px;
+}
+
+.nav-link.active {
+    background-color: #495057;
+    border-radius: 5px;
+}
+
+.navbar-divider {
+    border-top: 1px solid #495057;
+    margin: 1rem 0;
+}

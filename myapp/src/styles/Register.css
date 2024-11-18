@@ -1,0 +1,93 @@
+/* src/styles/Register.css */
+
+.custom-form-container {
+    margin-top: 50px;
+}
+
+.custom-card {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card-body {
+    padding: 20px;
+}
+
+.custom-form-title {
+    font-size: 24px;
+}
+
+.form-floating {
+    position: relative;
+}
+
+.form-floating>.form-control,
+.form-floating>.form-select {
+    height: auto;
+    padding: 1rem 0.75rem;
+}
+
+.form-floating>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.75rem 0.75rem;
+    pointer-events: none;
+    transition: 0.2s ease all;
+    background-color: white;
+    color: #6c757d;
+    /* Bootstrap secondary color */
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #ff4000;
+    /* Bootstrap primary color */
+    box-shadow: 0 0 0 0.25rem rgba(38, 143, 255, 0.25);
+    /* Bootstrap focus color */
+}
+
+.form-control:focus~label,
+.form-select:focus~label,
+.form-control:not(:placeholder-shown)~label,
+.form-select:not(:placeholder-shown)~label {
+    top: -0.75rem;
+    left: 0.75rem;
+    font-size: 75%;
+    color: #007bff;
+    /* Bootstrap primary color */
+}
+
+.custom-button {
+    background-color: #007bff;
+    /* Bootstrap primary color */
+    color: white;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+    /* Darker shade for hover effect */
+}
+
+.custom-error {
+    color: red;
+}
+
+.custom-success {
+    color: green;
+}
+
+.login-link {
+    color: #007bff;
+    /* Bootstrap primary color */
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}

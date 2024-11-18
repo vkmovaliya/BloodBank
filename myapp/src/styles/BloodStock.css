@@ -1,0 +1,14 @@
+/* BloodStock.css */
+
+.card {
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
